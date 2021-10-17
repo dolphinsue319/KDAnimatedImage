@@ -6,6 +6,20 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		CE2AC069271C117100D46C68 /* KDAnimatedImageBuilder */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = CE2AC06A271C117100D46C68 /* Build configuration list for PBXAggregateTarget "KDAnimatedImageBuilder" */;
+			buildPhases = (
+				CE2AC06D271C118100D46C68 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = KDAnimatedImageBuilder;
+			productName = KDAnimatedImageBuilder;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		2E34C08C0F02639FD01C199F /* libPods-KDAnimatedImageFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 649A253017C795EF546D230B /* libPods-KDAnimatedImageFramework.a */; };
 		5D777DBCE2E95304585803D1 /* libPods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 973604A89722FC8AF7AB1D0A /* libPods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.a */; };
@@ -192,6 +206,9 @@
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
+					CE2AC069271C117100D46C68 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					CEC4B352271C0887007C5F90 = {
 						CreatedOnToolsVersion = 13.0;
 						LastSwiftMigration = 1300;
@@ -217,6 +234,7 @@
 			targets = (
 				CEC4B352271C0887007C5F90 /* KDAnimatedImageFramework */,
 				CEC4B35A271C0887007C5F90 /* KDAnimatedImageFrameworkTests */,
+				CE2AC069271C117100D46C68 /* KDAnimatedImageBuilder */,
 			);
 		};
 /* End PBXProject section */
@@ -262,6 +280,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		CE2AC06D271C118100D46C68 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "xcodebuild archive -workspace \"KDAnimatedImageFramework.xcworkspace\" \\\n-scheme \"KDAnimatedImageFramework\" -destination \"generic/platform=iOS\" \\\n-archivePath \"archives/KDAnimated-iOS\" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\nxcodebuild archive -workspace \"KDAnimatedImageFramework.xcworkspace\" \\\n-scheme \"KDAnimatedImageFramework\" \\\n-destination \"generic/platform=iOS Simulator\" \\\n-archivePath \"archives/KDAnimated-iOS-Simulator\" SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES\n\nxcodebuild -create-xcframework \\\n-framework \"archives/KDAnimated-iOS-Simulator.xcarchive/Products/Library/Frameworks/KDAnimatedImageFramework.framework\" \\\n-framework \"archives/KDAnimated-iOS.xcarchive/Products/Library/Frameworks/KDAnimatedImageFramework.framework\" \\\n-output \"archives/KDAnimatedImage.xcframework\"\n";
 		};
 		D6F23B918BE20645668CFC43 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -318,6 +353,24 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		CE2AC06B271C117100D46C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SBS3WRZTPU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE2AC06C271C117100D46C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SBS3WRZTPU;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		CEC4B363271C0887007C5F90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -555,6 +608,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE2AC06A271C117100D46C68 /* Build configuration list for PBXAggregateTarget "KDAnimatedImageBuilder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2AC06B271C117100D46C68 /* Debug */,
+				CE2AC06C271C117100D46C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		CEC4B34D271C0887007C5F90 /* Build configuration list for PBXProject "KDAnimatedImageFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
