@@ -1,0 +1,15 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'KDAnimatedImageFramework' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for KDAnimatedImage
+  pod 'ffmpeg-kit-ios-full', '~> 4.5.LTS'
+
+  target 'KDAnimatedImageFrameworkTests' do
+    # Pods for testing
+  end
+
+end

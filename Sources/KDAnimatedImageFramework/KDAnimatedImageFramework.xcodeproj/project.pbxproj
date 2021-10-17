@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E34C08C0F02639FD01C199F /* libPods-KDAnimatedImageFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 649A253017C795EF546D230B /* libPods-KDAnimatedImageFramework.a */; };
+		5D777DBCE2E95304585803D1 /* libPods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 973604A89722FC8AF7AB1D0A /* libPods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.a */; };
+		CE2AC067271C107000D46C68 /* vp9_yuva420p.webm in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC066271C107000D46C68 /* vp9_yuva420p.webm */; };
+		CE2AC068271C107000D46C68 /* vp9_yuva420p.webm in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC066271C107000D46C68 /* vp9_yuva420p.webm */; };
+		CEC4B35C271C0887007C5F90 /* KDAnimatedImageFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4B353271C0887007C5F90 /* KDAnimatedImageFramework.framework */; };
+		CEC4B362271C0887007C5F90 /* KDAnimatedImageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC4B356271C0887007C5F90 /* KDAnimatedImageFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEE9A065271C0D750031240A /* KDMediaInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A061271C0D750031240A /* KDMediaInfoModel.swift */; };
+		CEE9A066271C0D750031240A /* KDAnimatedImageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A062271C0D750031240A /* KDAnimatedImageHandler.swift */; };
+		CEE9A067271C0D750031240A /* KDCGImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A063271C0D750031240A /* KDCGImageHelper.swift */; };
+		CEE9A068271C0D750031240A /* KDVideoGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A064271C0D750031240A /* KDVideoGenerator.swift */; };
+		CEE9A06A271C0D8F0031240A /* KDAnimatedImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A069271C0D8F0031240A /* KDAnimatedImageTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC4B35D271C0887007C5F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC4B34A271C0887007C5F90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC4B352271C0887007C5F90;
+			remoteInfo = KDAnimatedImageFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DD62A58E7DF1F8E8E9CA753 /* Pods-KDAnimatedImageFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDAnimatedImageFramework.debug.xcconfig"; path = "Target Support Files/Pods-KDAnimatedImageFramework/Pods-KDAnimatedImageFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		649A253017C795EF546D230B /* libPods-KDAnimatedImageFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KDAnimatedImageFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		973604A89722FC8AF7AB1D0A /* libPods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAF534944D2ED00ED61E0348 /* Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests/Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE2AC066271C107000D46C68 /* vp9_yuva420p.webm */ = {isa = PBXFileReference; lastKnownFileType = file; path = vp9_yuva420p.webm; sourceTree = "<group>"; };
+		CEC4B353271C0887007C5F90 /* KDAnimatedImageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDAnimatedImageFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC4B356271C0887007C5F90 /* KDAnimatedImageFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDAnimatedImageFramework.h; sourceTree = "<group>"; };
+		CEC4B35B271C0887007C5F90 /* KDAnimatedImageFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDAnimatedImageFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEE9A061271C0D750031240A /* KDMediaInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KDMediaInfoModel.swift; path = ../../KDAnimatedImage/KDMediaInfoModel.swift; sourceTree = "<group>"; };
+		CEE9A062271C0D750031240A /* KDAnimatedImageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KDAnimatedImageHandler.swift; path = ../../KDAnimatedImage/KDAnimatedImageHandler.swift; sourceTree = "<group>"; };
+		CEE9A063271C0D750031240A /* KDCGImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KDCGImageHelper.swift; path = ../../KDAnimatedImage/KDCGImageHelper.swift; sourceTree = "<group>"; };
+		CEE9A064271C0D750031240A /* KDVideoGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KDVideoGenerator.swift; path = ../../KDAnimatedImage/KDVideoGenerator.swift; sourceTree = "<group>"; };
+		CEE9A069271C0D8F0031240A /* KDAnimatedImageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KDAnimatedImageTests.swift; path = ../../../Tests/KDAnimatedImageTests/KDAnimatedImageTests.swift; sourceTree = "<group>"; };
+		E078F6808A231DE825F991C9 /* Pods-KDAnimatedImageFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDAnimatedImageFramework.release.xcconfig"; path = "Target Support Files/Pods-KDAnimatedImageFramework/Pods-KDAnimatedImageFramework.release.xcconfig"; sourceTree = "<group>"; };
+		E78B85D3D6E4402C2A1ACC39 /* Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.debug.xcconfig"; path = "Target Support Files/Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests/Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC4B350271C0887007C5F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E34C08C0F02639FD01C199F /* libPods-KDAnimatedImageFramework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4B358271C0887007C5F90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4B35C271C0887007C5F90 /* KDAnimatedImageFramework.framework in Frameworks */,
+				5D777DBCE2E95304585803D1 /* libPods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F85C12FBBCEF0C58D52B36E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				649A253017C795EF546D230B /* libPods-KDAnimatedImageFramework.a */,
+				973604A89722FC8AF7AB1D0A /* libPods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37BEEA52FED24DF7A203E9B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DD62A58E7DF1F8E8E9CA753 /* Pods-KDAnimatedImageFramework.debug.xcconfig */,
+				E078F6808A231DE825F991C9 /* Pods-KDAnimatedImageFramework.release.xcconfig */,
+				E78B85D3D6E4402C2A1ACC39 /* Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.debug.xcconfig */,
+				AAF534944D2ED00ED61E0348 /* Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEC4B349271C0887007C5F90 = {
+			isa = PBXGroup;
+			children = (
+				CE2AC066271C107000D46C68 /* vp9_yuva420p.webm */,
+				CEC4B355271C0887007C5F90 /* KDAnimatedImageFramework */,
+				CEC4B35F271C0887007C5F90 /* KDAnimatedImageFrameworkTests */,
+				CEC4B354271C0887007C5F90 /* Products */,
+				37BEEA52FED24DF7A203E9B7 /* Pods */,
+				1F85C12FBBCEF0C58D52B36E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC4B354271C0887007C5F90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4B353271C0887007C5F90 /* KDAnimatedImageFramework.framework */,
+				CEC4B35B271C0887007C5F90 /* KDAnimatedImageFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC4B355271C0887007C5F90 /* KDAnimatedImageFramework */ = {
+			isa = PBXGroup;
+			children = (
+				CEC4B356271C0887007C5F90 /* KDAnimatedImageFramework.h */,
+				CEE9A062271C0D750031240A /* KDAnimatedImageHandler.swift */,
+				CEE9A063271C0D750031240A /* KDCGImageHelper.swift */,
+				CEE9A061271C0D750031240A /* KDMediaInfoModel.swift */,
+				CEE9A064271C0D750031240A /* KDVideoGenerator.swift */,
+			);
+			path = KDAnimatedImageFramework;
+			sourceTree = "<group>";
+		};
+		CEC4B35F271C0887007C5F90 /* KDAnimatedImageFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEE9A069271C0D8F0031240A /* KDAnimatedImageTests.swift */,
+			);
+			path = KDAnimatedImageFrameworkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CEC4B34E271C0887007C5F90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC4B362271C0887007C5F90 /* KDAnimatedImageFramework.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CEC4B352271C0887007C5F90 /* KDAnimatedImageFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC4B365271C0887007C5F90 /* Build configuration list for PBXNativeTarget "KDAnimatedImageFramework" */;
+			buildPhases = (
+				D6F23B918BE20645668CFC43 /* [CP] Check Pods Manifest.lock */,
+				CEC4B34E271C0887007C5F90 /* Headers */,
+				CEC4B34F271C0887007C5F90 /* Sources */,
+				CEC4B350271C0887007C5F90 /* Frameworks */,
+				CEC4B351271C0887007C5F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDAnimatedImageFramework;
+			productName = KDAnimatedImageFramework;
+			productReference = CEC4B353271C0887007C5F90 /* KDAnimatedImageFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CEC4B35A271C0887007C5F90 /* KDAnimatedImageFrameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC4B368271C0887007C5F90 /* Build configuration list for PBXNativeTarget "KDAnimatedImageFrameworkTests" */;
+			buildPhases = (
+				C12604CD7348C17BAF7098F6 /* [CP] Check Pods Manifest.lock */,
+				CEC4B357271C0887007C5F90 /* Sources */,
+				CEC4B358271C0887007C5F90 /* Frameworks */,
+				CEC4B359271C0887007C5F90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC4B35E271C0887007C5F90 /* PBXTargetDependency */,
+			);
+			name = KDAnimatedImageFrameworkTests;
+			productName = KDAnimatedImageFrameworkTests;
+			productReference = CEC4B35B271C0887007C5F90 /* KDAnimatedImageFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC4B34A271C0887007C5F90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					CEC4B352271C0887007C5F90 = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
+					CEC4B35A271C0887007C5F90 = {
+						CreatedOnToolsVersion = 13.0;
+						LastSwiftMigration = 1300;
+					};
+				};
+			};
+			buildConfigurationList = CEC4B34D271C0887007C5F90 /* Build configuration list for PBXProject "KDAnimatedImageFramework" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC4B349271C0887007C5F90;
+			productRefGroup = CEC4B354271C0887007C5F90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC4B352271C0887007C5F90 /* KDAnimatedImageFramework */,
+				CEC4B35A271C0887007C5F90 /* KDAnimatedImageFrameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC4B351271C0887007C5F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2AC067271C107000D46C68 /* vp9_yuva420p.webm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4B359271C0887007C5F90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2AC068271C107000D46C68 /* vp9_yuva420p.webm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C12604CD7348C17BAF7098F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F23B918BE20645668CFC43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KDAnimatedImageFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC4B34F271C0887007C5F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE9A066271C0D750031240A /* KDAnimatedImageHandler.swift in Sources */,
+				CEE9A065271C0D750031240A /* KDMediaInfoModel.swift in Sources */,
+				CEE9A068271C0D750031240A /* KDVideoGenerator.swift in Sources */,
+				CEE9A067271C0D750031240A /* KDCGImageHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC4B357271C0887007C5F90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE9A06A271C0D8F0031240A /* KDAnimatedImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC4B35E271C0887007C5F90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC4B352271C0887007C5F90 /* KDAnimatedImageFramework */;
+			targetProxy = CEC4B35D271C0887007C5F90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEC4B363271C0887007C5F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEC4B364271C0887007C5F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CEC4B366271C0887007C5F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD62A58E7DF1F8E8E9CA753 /* Pods-KDAnimatedImageFramework.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SBS3WRZTPU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idv.dolphinsu.KDAnimatedImageFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC4B367271C0887007C5F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E078F6808A231DE825F991C9 /* Pods-KDAnimatedImageFramework.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = SBS3WRZTPU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idv.dolphinsu.KDAnimatedImageFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEC4B369271C0887007C5F90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78B85D3D6E4402C2A1ACC39 /* Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SBS3WRZTPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idv.dolphinsu.KDAnimatedImageFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEC4B36A271C0887007C5F90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAF534944D2ED00ED61E0348 /* Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SBS3WRZTPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idv.dolphinsu.KDAnimatedImageFrameworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC4B34D271C0887007C5F90 /* Build configuration list for PBXProject "KDAnimatedImageFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC4B363271C0887007C5F90 /* Debug */,
+				CEC4B364271C0887007C5F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC4B365271C0887007C5F90 /* Build configuration list for PBXNativeTarget "KDAnimatedImageFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC4B366271C0887007C5F90 /* Debug */,
+				CEC4B367271C0887007C5F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC4B368271C0887007C5F90 /* Build configuration list for PBXNativeTarget "KDAnimatedImageFrameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC4B369271C0887007C5F90 /* Debug */,
+				CEC4B36A271C0887007C5F90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC4B34A271C0887007C5F90 /* Project object */;
+}
