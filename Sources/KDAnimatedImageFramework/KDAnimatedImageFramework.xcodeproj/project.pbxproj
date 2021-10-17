@@ -25,6 +25,19 @@
 		5D777DBCE2E95304585803D1 /* libPods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 973604A89722FC8AF7AB1D0A /* libPods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.a */; };
 		CE2AC067271C107000D46C68 /* vp9_yuva420p.webm in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC066271C107000D46C68 /* vp9_yuva420p.webm */; };
 		CE2AC068271C107000D46C68 /* vp9_yuva420p.webm in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC066271C107000D46C68 /* vp9_yuva420p.webm */; };
+		CE2AC075271C153400D46C68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AC074271C153400D46C68 /* AppDelegate.swift */; };
+		CE2AC077271C153400D46C68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AC076271C153400D46C68 /* SceneDelegate.swift */; };
+		CE2AC079271C153400D46C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AC078271C153400D46C68 /* ViewController.swift */; };
+		CE2AC07C271C153400D46C68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC07A271C153400D46C68 /* Main.storyboard */; };
+		CE2AC07E271C153500D46C68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC07D271C153500D46C68 /* Assets.xcassets */; };
+		CE2AC081271C153500D46C68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC07F271C153500D46C68 /* LaunchScreen.storyboard */; };
+		CE2AC089271C159F00D46C68 /* VideoDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AC086271C159F00D46C68 /* VideoDemoViewController.swift */; };
+		CE2AC08A271C159F00D46C68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AC087271C159F00D46C68 /* ViewController.swift */; };
+		CE2AC08B271C159F00D46C68 /* ImagesDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2AC088271C159F00D46C68 /* ImagesDemoViewController.swift */; };
+		CE2AC08C271C16A000D46C68 /* vp9_yuva420p.webm in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC066271C107000D46C68 /* vp9_yuva420p.webm */; };
+		CE2AC08E271C16D700D46C68 /* videoalpha_video_dancer1.webm in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC08D271C16D700D46C68 /* videoalpha_video_dancer1.webm */; };
+		CE2AC08F271C16D700D46C68 /* videoalpha_video_dancer1.webm in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC08D271C16D700D46C68 /* videoalpha_video_dancer1.webm */; };
+		CE2AC090271C16D700D46C68 /* videoalpha_video_dancer1.webm in Resources */ = {isa = PBXBuildFile; fileRef = CE2AC08D271C16D700D46C68 /* videoalpha_video_dancer1.webm */; };
 		CEC4B35C271C0887007C5F90 /* KDAnimatedImageFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC4B353271C0887007C5F90 /* KDAnimatedImageFramework.framework */; };
 		CEC4B362271C0887007C5F90 /* KDAnimatedImageFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = CEC4B356271C0887007C5F90 /* KDAnimatedImageFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEE9A065271C0D750031240A /* KDMediaInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9A061271C0D750031240A /* KDMediaInfoModel.swift */; };
@@ -50,6 +63,18 @@
 		973604A89722FC8AF7AB1D0A /* libPods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAF534944D2ED00ED61E0348 /* Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.release.xcconfig"; path = "Target Support Files/Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests/Pods-KDAnimatedImageFramework-KDAnimatedImageFrameworkTests.release.xcconfig"; sourceTree = "<group>"; };
 		CE2AC066271C107000D46C68 /* vp9_yuva420p.webm */ = {isa = PBXFileReference; lastKnownFileType = file; path = vp9_yuva420p.webm; sourceTree = "<group>"; };
+		CE2AC072271C153400D46C68 /* KDAnimatedImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDAnimatedImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2AC074271C153400D46C68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE2AC076271C153400D46C68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE2AC078271C153400D46C68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE2AC07B271C153400D46C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE2AC07D271C153500D46C68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE2AC080271C153500D46C68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE2AC082271C153500D46C68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE2AC086271C159F00D46C68 /* VideoDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoDemoViewController.swift; sourceTree = "<group>"; };
+		CE2AC087271C159F00D46C68 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE2AC088271C159F00D46C68 /* ImagesDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesDemoViewController.swift; sourceTree = "<group>"; };
+		CE2AC08D271C16D700D46C68 /* videoalpha_video_dancer1.webm */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoalpha_video_dancer1.webm; sourceTree = "<group>"; };
 		CEC4B353271C0887007C5F90 /* KDAnimatedImageFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDAnimatedImageFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC4B356271C0887007C5F90 /* KDAnimatedImageFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDAnimatedImageFramework.h; sourceTree = "<group>"; };
 		CEC4B35B271C0887007C5F90 /* KDAnimatedImageFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDAnimatedImageFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +88,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE2AC06F271C153400D46C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEC4B350271C0887007C5F90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,12 +135,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		CE2AC073271C153400D46C68 /* KDAnimatedImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CE2AC088271C159F00D46C68 /* ImagesDemoViewController.swift */,
+				CE2AC086271C159F00D46C68 /* VideoDemoViewController.swift */,
+				CE2AC087271C159F00D46C68 /* ViewController.swift */,
+				CE2AC074271C153400D46C68 /* AppDelegate.swift */,
+				CE2AC076271C153400D46C68 /* SceneDelegate.swift */,
+				CE2AC078271C153400D46C68 /* ViewController.swift */,
+				CE2AC07A271C153400D46C68 /* Main.storyboard */,
+				CE2AC07D271C153500D46C68 /* Assets.xcassets */,
+				CE2AC07F271C153500D46C68 /* LaunchScreen.storyboard */,
+				CE2AC082271C153500D46C68 /* Info.plist */,
+			);
+			path = KDAnimatedImageDemo;
+			sourceTree = "<group>";
+		};
 		CEC4B349271C0887007C5F90 = {
 			isa = PBXGroup;
 			children = (
+				CE2AC08D271C16D700D46C68 /* videoalpha_video_dancer1.webm */,
 				CE2AC066271C107000D46C68 /* vp9_yuva420p.webm */,
 				CEC4B355271C0887007C5F90 /* KDAnimatedImageFramework */,
 				CEC4B35F271C0887007C5F90 /* KDAnimatedImageFrameworkTests */,
+				CE2AC073271C153400D46C68 /* KDAnimatedImageDemo */,
 				CEC4B354271C0887007C5F90 /* Products */,
 				37BEEA52FED24DF7A203E9B7 /* Pods */,
 				1F85C12FBBCEF0C58D52B36E /* Frameworks */,
@@ -120,6 +171,7 @@
 			children = (
 				CEC4B353271C0887007C5F90 /* KDAnimatedImageFramework.framework */,
 				CEC4B35B271C0887007C5F90 /* KDAnimatedImageFrameworkTests.xctest */,
+				CE2AC072271C153400D46C68 /* KDAnimatedImageDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,6 +210,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		CE2AC071271C153400D46C68 /* KDAnimatedImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE2AC083271C153500D46C68 /* Build configuration list for PBXNativeTarget "KDAnimatedImageDemo" */;
+			buildPhases = (
+				CE2AC06E271C153400D46C68 /* Sources */,
+				CE2AC06F271C153400D46C68 /* Frameworks */,
+				CE2AC070271C153400D46C68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDAnimatedImageDemo;
+			productName = KDAnimatedImageDemo;
+			productReference = CE2AC072271C153400D46C68 /* KDAnimatedImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		CEC4B352271C0887007C5F90 /* KDAnimatedImageFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEC4B365271C0887007C5F90 /* Build configuration list for PBXNativeTarget "KDAnimatedImageFramework" */;
@@ -209,6 +278,9 @@
 					CE2AC069271C117100D46C68 = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					CE2AC071271C153400D46C68 = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					CEC4B352271C0887007C5F90 = {
 						CreatedOnToolsVersion = 13.0;
 						LastSwiftMigration = 1300;
@@ -235,15 +307,29 @@
 				CEC4B352271C0887007C5F90 /* KDAnimatedImageFramework */,
 				CEC4B35A271C0887007C5F90 /* KDAnimatedImageFrameworkTests */,
 				CE2AC069271C117100D46C68 /* KDAnimatedImageBuilder */,
+				CE2AC071271C153400D46C68 /* KDAnimatedImageDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		CE2AC070271C153400D46C68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2AC081271C153500D46C68 /* LaunchScreen.storyboard in Resources */,
+				CE2AC07E271C153500D46C68 /* Assets.xcassets in Resources */,
+				CE2AC090271C16D700D46C68 /* videoalpha_video_dancer1.webm in Resources */,
+				CE2AC07C271C153400D46C68 /* Main.storyboard in Resources */,
+				CE2AC08C271C16A000D46C68 /* vp9_yuva420p.webm in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEC4B351271C0887007C5F90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2AC08E271C16D700D46C68 /* videoalpha_video_dancer1.webm in Resources */,
 				CE2AC067271C107000D46C68 /* vp9_yuva420p.webm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +338,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2AC08F271C16D700D46C68 /* videoalpha_video_dancer1.webm in Resources */,
 				CE2AC068271C107000D46C68 /* vp9_yuva420p.webm in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -323,6 +410,19 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE2AC06E271C153400D46C68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2AC08A271C159F00D46C68 /* ViewController.swift in Sources */,
+				CE2AC079271C153400D46C68 /* ViewController.swift in Sources */,
+				CE2AC075271C153400D46C68 /* AppDelegate.swift in Sources */,
+				CE2AC077271C153400D46C68 /* SceneDelegate.swift in Sources */,
+				CE2AC089271C159F00D46C68 /* VideoDemoViewController.swift in Sources */,
+				CE2AC08B271C159F00D46C68 /* ImagesDemoViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CEC4B34F271C0887007C5F90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -352,6 +452,25 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		CE2AC07A271C153400D46C68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2AC07B271C153400D46C68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE2AC07F271C153500D46C68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE2AC080271C153500D46C68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		CE2AC06B271C117100D46C68 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -368,6 +487,64 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SBS3WRZTPU;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE2AC084271C153500D46C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SBS3WRZTPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KDAnimatedImageDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idv.dolphinsu.KDAnimatedImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE2AC085271C153500D46C68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SBS3WRZTPU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KDAnimatedImageDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = idv.dolphinsu.KDAnimatedImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -613,6 +790,15 @@
 			buildConfigurations = (
 				CE2AC06B271C117100D46C68 /* Debug */,
 				CE2AC06C271C117100D46C68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE2AC083271C153500D46C68 /* Build configuration list for PBXNativeTarget "KDAnimatedImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE2AC084271C153500D46C68 /* Debug */,
+				CE2AC085271C153500D46C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
